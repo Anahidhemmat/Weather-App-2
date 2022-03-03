@@ -1,0 +1,20 @@
+body {
+  background-color: #e7fbbef1;
+  font-family: "Hubballi", sans-serif, serif;
+}
+h1 {
+  color: #d9d7f1;
+  font-size: 4rem;
+}
+.container {
+  max-width: 400px;
+}
+.search-inp {
+  width: 20rem;
+  outline: none;
+  background-color: #e7fbbe;
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: 0.4rem;
+  font-family: "Hubballi", "Font Awesome 5 Free";
+}

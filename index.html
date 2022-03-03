@@ -13,9 +13,35 @@
     />
     <!-- Css File -->
     <link rel="stylesheet" href="style.css" />
+    <!-- Text Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awsome link -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css"
+    />
     <title>Weather App</title>
   </head>
   <body>
+    <!-- Title -->
+    <h1 class="title text-center mt-4">Weather App</h1>
+    <!-- Main -->
+    <section class="container mx-auto my-5">
+      <!-- location search input -->
+      <form class="change-location my-4 text-muted text-center">
+        <input
+          type="text"
+          name="city"
+          class="m-4 search-inp"
+          placeholder="&#xF002   Enter a location for weather information"
+        />
+      </form>
+    </section>
     <!-- Script Files -->
     <script src="Scripts/forcast.js"></script>
     <script src="Scripts/app.js"></script>
