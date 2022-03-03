@@ -10,11 +10,12 @@ h1 {
   max-width: 400px;
 }
 .search-inp {
-  width: 20rem;
+  width: 21rem;
   outline: none;
   background-color: #e7fbbe;
   border: none;
-  border-bottom: 1px solid #000;
+  border-bottom: 2px solid #d9d7f1;
   padding: 0.4rem;
   font-family: "Hubballi", "Font Awesome 5 Free";
+  font-size: 1.1rem;
 }
