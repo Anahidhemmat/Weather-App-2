@@ -6,14 +6,17 @@ const cityName = document.querySelector(".city-name");
 const weatherCondition = document.querySelector(".weather-condition");
 const temprature = document.querySelector(".temp");
 
-// form input event
+//form event
 form.addEventListener("submit", (e) => {
   //prevent default behaivior
   e.preventDefault();
-  //get input value
+
+  //get value of input
   const city = form.city.value.trim();
-  //reset formx
+
+  //reset input
   form.reset();
-  //update city
+
+  //update next city
   updateCity(city);
 });
