@@ -19,3 +19,34 @@ h1 {
   font-family: "Hubballi", "Font Awesome 5 Free";
   font-size: 1.1rem;
 }
+
+.city {
+  display: flex;
+  justify-content: center;
+}
+.location {
+  width: 25px;
+  height: 25px;
+  margin: 0;
+  margin-top: 1.3rem;
+  margin-right: 1%;
+  color: #bebbd8;
+}
+.city-name {
+  display: inline;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.condition {
+  display: flex;
+  justify-content: center;
+}
+.weather-condition {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-right: 1%;
+}
+.icon {
+  width: 60px;
+  height: 60px;
+}
